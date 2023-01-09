@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const task = require('./routes/task');
+const task = require('./routes/tasks');
 const connectDB = require("./db/connect")
 const notFound = require("./middleware/not-found")
 const errorHandlerMiddleWare = require("./middleware/error-handler")
